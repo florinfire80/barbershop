@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap");
+
+:root {
+  --link-color: #ffffff;
+  --link-active-color: #ff6c00;
+  --text-font-family: "Open Sans", sans-serif;
+  --heading-font-family: "Raleway", sans-serif;
+  --text-color:background: #9DA4BD;
+  --text-alternate-color: #303030;
+  --heading-color: FFFFFF; 
+  --heading-alternate-color: #303030;
+ 
+}
+
+body {
+  font-family: var(--text-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+
+.global-header {
+  background: #363636;
+}
+
+.global-header a {
+  color: var(--link-color);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.global-header .main-navigation {
+}
+.global-header .main-navigation a,
+.global-header .main-navigation a:visited {
+  color: var(--link-color);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+.global-header a.active {
+  color: var(--link-active-color);
+}
+.global-header .social-links {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+}
+.global-header .main-navigation .phone-number {
+  text-transform: uppercase;
+}
+.global-header button {
+  letter-spacing: 0.09em;
+}
+.section-sub-heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.hero-heading {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  color: var(--heading-color);
+}
+.section h1, 
+.section h2, 
+.section h3 {
+  color: var(--heading-color);
+}
+.section-alternate h1, 
+.section-alternate h2, 
+.section-alternate h3 {
+  color: var(--heading-alternate-color);
+}
+.hero-section {
+  background: #363636;
+}
+.section-heading {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
